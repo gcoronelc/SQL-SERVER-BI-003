@@ -1,14 +1,14 @@
-TRANSFORMACIÓN: SCRIPT COMPONENT
+TRANSFORMACIÃ“N: SCRIPT COMPONENT
 ------------------------------------------
 Permite transformar un valor.
-Por ejemplo un codigo en su descripción.
+Por ejemplo un codigo en su descripciÃ³n.
 Se puede incluir logica con VB o C#.
 
 El objetivo es llevar los datos del archivo 
-territorios.txt a la tabla BDDestino..Territorios
+TERRITORIOS.TXT a la tabla BD57040..Territorios
 
-La tercera columna tiene el código de territorio,
-se debe remplazar por su descripción:
+La tercera columna tiene el cÃ³digo de territorio,
+se debe remplazar por su descripciÃ³n:
 
   1 -> Oriente 
   2 -> Occidente 
@@ -21,6 +21,7 @@ Consideraciones:
 - Las cadenas tienen doble comillas
   En Formato, Calificador de texto escribir doble comillas
 - Se debe crear una nueva columna de salida de nombre Region
+- La columna Region de ser de tipo: String [DT_STR]
 
 Script a considerar con C#:
 
