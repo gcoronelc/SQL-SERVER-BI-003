@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:ObjectName="EGCC2020.BD57040.sa"
+  DTS:DTSID="{FF5AE3D9-824F-4876-B2C9-DECD6C7A6408}"
+  DTS:CreationName="OLEDB">
+  <DTS:ObjectData>
+    <DTS:ConnectionManager
+      DTS:ConnectRetryCount="1"
+      DTS:ConnectRetryInterval="5"
+      DTS:ConnectionString="Data Source=EGCC2020;User ID=sa;Initial Catalog=BD57040;Provider=SQLNCLI11.1;Persist Security Info=True;Auto Translate=False;">
+      <DTS:Password
+        DTS:Name="Password"
+        Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAEBEwkF0TB0WkYCQ7AAOYLQAAAAACAAAAAAAQZgAAAAEAACAAAAA8tyZ1amuzK2wltceD9H2XkuWrnXOHozR8cnTpt2bzDwAAAAAOgAAAAAIAACAAAADt6BRmObGdmtKTcu7Bh9ZL8FyfkkD0g5axzC6mB6Ao7nAAAABFOaBrzJOzs/cPJIz7+Q3fZVIsTR29LuAQUX+J3FR1wwhqAkFDNhiS3kXUZamnWn6QKBeLzeuROJz/FGdqpZcSI/7HESgv5Hybx+DcJDbh4oDmkHKWZA3dgNuPcvcYH8dxtk6+kUOMVK2898P/npv0QAAAADDMnCL4vIFp8a2jsWoeBZG8H8k5BIJIeXkLMXSWjLKv3eK1zDimoisDb78H/Oro8Fd5QgAeGRknRyxNJv6Bj2Q=</DTS:Password>
+    </DTS:ConnectionManager>
+  </DTS:ObjectData>
+</DTS:ConnectionManager>
