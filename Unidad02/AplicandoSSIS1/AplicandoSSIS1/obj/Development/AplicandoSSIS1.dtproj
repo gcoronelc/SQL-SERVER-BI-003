@@ -26,7 +26,7 @@
           <SSIS:Property SSIS:Name="CreatorComputerName">EGCC2020</SSIS:Property>
           <SSIS:Property SSIS:Name="Description">
           </SSIS:Property>
-          <SSIS:Property SSIS:Name="PasswordVerifier" SSIS:Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAEBEwkF0TB0WkYCQ7AAOYLQAAAAACAAAAAAAQZgAAAAEAACAAAABzfiE3n3Qdb40RJhyJb0+b0u8V7RO4lZfT3kLFmJVbIwAAAAAOgAAAAAIAACAAAABZiP8LP2ujeZO5NQo6daHdWo0/lsyyAf7J53/+zvbtTZAAAABexLBGKNM73dD8V/yZ3DcOpirjC5bjeNC4Y8T+Woan24TwWUUci7nKoTaNgvDo82eRPdXP8np1KC9P/Y7XX+8pNfViTf/7qtA3K01xwbGJcPyIS8mrgYpwP7GLv2Nsge8De/Bv9Ud9EcO8/k8uvwyF4PFMFvDXbS62irLcZkhO89G8iqGfk+c9dKUWgYIjcBFAAAAAkBw2HHdL6oNkt0h3G4naphWq51glGC4UFWTF3gof5pKY/nCY66MvJomYZnOygE7xzYM1fM90HrP2WpNBAVh3jg==</SSIS:Property>
+          <SSIS:Property SSIS:Name="PasswordVerifier" SSIS:Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAEBEwkF0TB0WkYCQ7AAOYLQAAAAACAAAAAAAQZgAAAAEAACAAAADDEY9RTxt7ZzZKcrVOyAevUr28lHSaMduf0HHq1CASDQAAAAAOgAAAAAIAACAAAADAbhvsLsi8ZB9B+SSCsjcABZEnaKKKzqYrFfz082IBeJAAAACkAmW+7RZUoRldu3P9jcmowwA/hx8T03pLhrDR4mXXypK5uL5A2VwSZ1V8ATVBGx5PM/4NyPVw98GAbt6IKVL9gPmnMWMoip1tHcPbBtolUxkUz71qInBBKWCH5UIwS7z/MJRIsncBRPdRLv+t74RBxAcnNbRHwuofoS5yFxsa3UvxpHYa/Q0KYMHIFz5N/iBAAAAAF+MeE7Dh0/ZhgiFRme9VJE7p5zsL2IuVnYn5FCod9xHDnD3KYIs5fCFe6pBcNSjhiMp0aXr04uCRFd9Hq97WFw==</SSIS:Property>
           <SSIS:Property SSIS:Name="FormatVersion">1</SSIS:Property>
         </SSIS:Properties>
         <SSIS:Packages>
@@ -67,6 +67,36 @@
                 <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
                 <SSIS:Property SSIS:Name="Value">Data Source=localhost;User ID=sa;Initial Catalog=Northwind;Provider=SQLNCLI11.1;Persist Security Info=True;Auto Translate=False;</SSIS:Property>
                 <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
+              </SSIS:Properties>
+            </SSIS:Parameter>
+            <SSIS:Parameter SSIS:Name="CM.localhost.Northwind.sa.ConnectRetryCount">
+              <SSIS:Properties>
+                <SSIS:Property SSIS:Name="ID">
+                </SSIS:Property>
+                <SSIS:Property SSIS:Name="CreationName">
+                </SSIS:Property>
+                <SSIS:Property SSIS:Name="Description">
+                </SSIS:Property>
+                <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
+                <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
+                <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
+                <SSIS:Property SSIS:Name="Value">1</SSIS:Property>
+                <SSIS:Property SSIS:Name="DataType">9</SSIS:Property>
+              </SSIS:Properties>
+            </SSIS:Parameter>
+            <SSIS:Parameter SSIS:Name="CM.localhost.Northwind.sa.ConnectRetryInterval">
+              <SSIS:Properties>
+                <SSIS:Property SSIS:Name="ID">
+                </SSIS:Property>
+                <SSIS:Property SSIS:Name="CreationName">
+                </SSIS:Property>
+                <SSIS:Property SSIS:Name="Description">
+                </SSIS:Property>
+                <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
+                <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
+                <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
+                <SSIS:Property SSIS:Name="Value">5</SSIS:Property>
+                <SSIS:Property SSIS:Name="DataType">9</SSIS:Property>
               </SSIS:Properties>
             </SSIS:Parameter>
             <SSIS:Parameter SSIS:Name="CM.localhost.Northwind.sa.ConnectUsingManagedIdentity">
@@ -186,6 +216,36 @@
                 <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
                 <SSIS:Property SSIS:Name="Value">Data Source=LOCALHOST;User ID=sa;Initial Catalog=BD57040;Provider=SQLNCLI11.1;Persist Security Info=True;Auto Translate=False;</SSIS:Property>
                 <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
+              </SSIS:Properties>
+            </SSIS:Parameter>
+            <SSIS:Parameter SSIS:Name="CM.LOCALHOST.BD57040.sa.ConnectRetryCount">
+              <SSIS:Properties>
+                <SSIS:Property SSIS:Name="ID">
+                </SSIS:Property>
+                <SSIS:Property SSIS:Name="CreationName">
+                </SSIS:Property>
+                <SSIS:Property SSIS:Name="Description">
+                </SSIS:Property>
+                <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
+                <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
+                <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
+                <SSIS:Property SSIS:Name="Value">1</SSIS:Property>
+                <SSIS:Property SSIS:Name="DataType">9</SSIS:Property>
+              </SSIS:Properties>
+            </SSIS:Parameter>
+            <SSIS:Parameter SSIS:Name="CM.LOCALHOST.BD57040.sa.ConnectRetryInterval">
+              <SSIS:Properties>
+                <SSIS:Property SSIS:Name="ID">
+                </SSIS:Property>
+                <SSIS:Property SSIS:Name="CreationName">
+                </SSIS:Property>
+                <SSIS:Property SSIS:Name="Description">
+                </SSIS:Property>
+                <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
+                <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
+                <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
+                <SSIS:Property SSIS:Name="Value">5</SSIS:Property>
+                <SSIS:Property SSIS:Name="DataType">9</SSIS:Property>
               </SSIS:Properties>
             </SSIS:Parameter>
             <SSIS:Parameter SSIS:Name="CM.LOCALHOST.BD57040.sa.ConnectUsingManagedIdentity">
@@ -482,10 +542,10 @@
                 <SSIS:Property SSIS:Name="Name">Package</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionMajor">1</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionMinor">0</SSIS:Property>
-                <SSIS:Property SSIS:Name="VersionBuild">10</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionBuild">12</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionComments">
                 </SSIS:Property>
-                <SSIS:Property SSIS:Name="VersionGUID">{13DD1650-D129-4030-B93C-63B984B1543D}</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionGUID">{1E291DBC-B760-4C88-B3DF-E1B16C580E38}</SSIS:Property>
                 <SSIS:Property SSIS:Name="PackageFormatVersion">8</SSIS:Property>
                 <SSIS:Property SSIS:Name="Description">
                 </SSIS:Property>

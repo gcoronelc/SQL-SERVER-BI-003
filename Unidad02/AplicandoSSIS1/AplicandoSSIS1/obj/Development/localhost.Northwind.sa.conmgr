@@ -5,10 +5,12 @@
   DTS:CreationName="OLEDB">
   <DTS:ObjectData>
     <DTS:ConnectionManager
+      DTS:ConnectRetryCount="1"
+      DTS:ConnectRetryInterval="5"
       DTS:ConnectionString="Data Source=localhost;User ID=sa;Initial Catalog=Northwind;Provider=SQLNCLI11.1;Persist Security Info=True;Auto Translate=False;">
       <DTS:Password
         DTS:Name="Password"
-        Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAEBEwkF0TB0WkYCQ7AAOYLQAAAAACAAAAAAAQZgAAAAEAACAAAACuWggT7/fdCM65aJwoFVrEY7leQPk0cvIc5nNOwo/J2AAAAAAOgAAAAAIAACAAAABhg7Lnkw26a6iGox1Pr0tAUZsry1RDeaayOQm0fCgJ4nAAAADsmPZQV16ZPfyXa5YOWWb69rVpBzASFdh+KxDSz4zeYljVrMxp7EK3XOgLVS8oz9tO4t+hLFIZ8bVuUeE0TX7xV+nrkkPn2jutxo9Y0Iukn0QHJhApZi3m+Zfe0Zjr4OBYIwFz4/B7xg/wpHOzW/zPQAAAALG8Kh4dj4MeMfiPYvMZwpptgMTKHwXhU6bU7wvBmP/uP+PqpQTd6T5WDTm+h1n73mcnoaXxr0R/1LMmZEujvns=</DTS:Password>
+        Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAEBEwkF0TB0WkYCQ7AAOYLQAAAAACAAAAAAAQZgAAAAEAACAAAABPt3nCq2K1UxjdDpdbt1UeF58o1BdOsx1n6h81CwNnfAAAAAAOgAAAAAIAACAAAABiBS9Us+Y8jxKAXzZhHN3a9YPMuWVfyMydC8JqZiH/V3AAAACVe4GJWYOdSCvXUw2k2iC2jLikqEWqo+3OxPwmLqVcn7bbyaQiJvwHW6tfS3XyzRHhGJCHnB9NB+30/+1YH3HPjRrfz4YFcIHAu/3vUBSCKh9Bb3WmdU25dqTmu8K7qnhIovdVIlCileiFoQjaKhOoQAAAABPLEgJ2fnEQMYD/jNrsS11aHkaStqgMB6OiMQnonky2PIsFaHzOil7fatZAUCp5M3G8jY8mz5lBfxfBx+wDuzs=</DTS:Password>
     </DTS:ConnectionManager>
   </DTS:ObjectData>
 </DTS:ConnectionManager>

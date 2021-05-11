@@ -5,10 +5,12 @@
   DTS:CreationName="OLEDB">
   <DTS:ObjectData>
     <DTS:ConnectionManager
+      DTS:ConnectRetryCount="1"
+      DTS:ConnectRetryInterval="5"
       DTS:ConnectionString="Data Source=LOCALHOST;User ID=sa;Initial Catalog=BD57040;Provider=SQLNCLI11.1;Persist Security Info=True;Auto Translate=False;">
       <DTS:Password
         DTS:Name="Password"
-        Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAEBEwkF0TB0WkYCQ7AAOYLQAAAAACAAAAAAAQZgAAAAEAACAAAABqWqA8TKVcdlwo+UexCpGcOzhhEipG02MszXmUPx383QAAAAAOgAAAAAIAACAAAAD02Qk0fh/E2KYYXhyGi+duVpx8VCVn+kicz07tx8L9B3AAAACYlFkSPySGzVpny24tA5VeRgvAKocptpBk6BVqOyF6DWkT41SpElvMLw7nEZliw7GvVH+dge/ScowGBqFZRHtuRai+lo9BwOvmE218mqZO6Tw7b00PcHn11ZCrb/23JlG+GEH6ftT2kqM/ut8GFl0IQAAAAG11h33mMqTPGXwUxtO5AETE1iy5qhXBIHTAGHI2vPzuAlMg6arWVYizT6iBmp71f8vR2C9P9CBRrrdRhBHZupA=</DTS:Password>
+        Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAEBEwkF0TB0WkYCQ7AAOYLQAAAAACAAAAAAAQZgAAAAEAACAAAACKjxOCAUisYMVl/V66ZBQfACXNmLimQICi2HZZR1g2YgAAAAAOgAAAAAIAACAAAADwGQCUN76LTyHXoCYR2Dg4jv8q/4CVTvBDksWmFaMFDnAAAADCgzBH3zNlZRhXYf6B/a+4891Cv2qZm4UDDLDxfDYkUACxRc+BopR3cN7gXED0yIKA3i4Z8WL4psgo0moMfdrAOz8BWfip1VP4YhzPDDkJ8nIMhqKumN6jEabCTtbEScUwDgGSY+78K+zJZPbE4MN8QAAAAGifTElcFBjMfsx13seY+ybmwXuHp2zxOPfF9qYK7FKknpxSYbpHNYfhLBC91iVaWUgAEyTiiPU5vHOohsjUlPA=</DTS:Password>
     </DTS:ConnectionManager>
   </DTS:ObjectData>
 </DTS:ConnectionManager>
