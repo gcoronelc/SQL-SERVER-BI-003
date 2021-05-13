@@ -1,0 +1,29 @@
+<AnalysisServicesUserConfiguration xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0">
+  <Configurations>
+    <Configuration>
+      <Name>Development</Name>
+      <Options>
+        <UserIDs>
+          <ConfigurationSetting>
+            <Id>SQL4-57040 Northwind DM</Id>
+            <Name>SQL4-57040 Northwind DM</Name>
+            <Value xsi:type="xsd:string">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAEBEwkF0TB0WkYCQ7AAOYLQAAAAAwAAAAUwBRAEwANAAtADUANwAwADQAMAAgAE4AbwByAHQAaAB3AGkAbgBkACAARABNAAAAEGYAAAABAAAgAAAAPIyK+hbFU+iTYUbrlB5jcy7PinzbzyHFQQ5HZQj6dYIAAAAADoAAAAACAAAgAAAAnTK1AVwWZwOzmF54dkwNFGOnSMehuo5j1rFJBkgtl2QQAAAAnCMMWSQe8wL7qTT1x1He00AAAABlTRLEueQyyOdYF4McKbLQD+X7mUECNEAPzeSDc7Al93AjY85AgVx4Mbz/4Ethebb2lschZ6yn7f0gXSSNZcSd</Value>
+          </ConfigurationSetting>
+        </UserIDs>
+        <UserPasswords>
+          <ConfigurationSetting>
+            <Id>SQL4-57040 Northwind DM</Id>
+            <Name>SQL4-57040 Northwind DM</Name>
+            <Value xsi:type="xsd:string">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAEBEwkF0TB0WkYCQ7AAOYLQAAAAAwAAAAUwBRAEwANAAtADUANwAwADQAMAAgAE4AbwByAHQAaAB3AGkAbgBkACAARABNAAAAEGYAAAABAAAgAAAAQuj2lVt02uwu/lARkfumTNiiKSHUDuCEE73IcMnS+hgAAAAADoAAAAACAAAgAAAA3UQ+9JLEsyjm2pDbKCOObRTJtL7qvFPaLZ+mloY5BQAQAAAAdIO5MFVme8qcMSQtbpY1+EAAAADKBG7sbeAWQji1hla8jXgbMFwXM/OjHqHRkP51dWFo8jZJfgGekBsir5fNE9c79w+YEGBDR0BHVHC4i/GuTUpg</Value>
+          </ConfigurationSetting>
+        </UserPasswords>
+        <TargetServer>localhost</TargetServer>
+        <TargetDatabase>SQL4-SSAS-57040-NW-DIN</TargetDatabase>
+        <StartObject>
+          <ObjectId></ObjectId>
+          <ObjectType>Current</ObjectType>
+        </StartObject>
+      </Options>
+    </Configuration>
+  </Configurations>
+</AnalysisServicesUserConfiguration>

@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31205.134
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{D2ABAB84-BF74-430A-B69E-9DC6D40DDA17}") = "SQL4-SSAS-57040-NW-DIN", "SQL4-SSAS-57040-NW-DIN\SQL4-SSAS-57040-NW-DIN.dwproj", "{79404BB0-C672-46C8-AA7C-309D3CAD304F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Development|Default = Development|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{79404BB0-C672-46C8-AA7C-309D3CAD304F}.Development|Default.ActiveCfg = Development
+		{79404BB0-C672-46C8-AA7C-309D3CAD304F}.Development|Default.Build.0 = Development
+		{79404BB0-C672-46C8-AA7C-309D3CAD304F}.Development|Default.Deploy.0 = Development
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3992157A-D6BD-42FA-B296-0AB409EF531B}
+	EndGlobalSection
+EndGlobal

@@ -7,12 +7,12 @@
   DTS:CreatorName="C103-25DGPROG\Alumno"
   DTS:DTSID="{4CE60B01-84FC-4177-9F3C-1D19106F4699}"
   DTS:ExecutableType="Microsoft.Package"
-  DTS:LastModifiedProductVersion="15.0.2000.123"
+  DTS:LastModifiedProductVersion="15.0.2000.166"
   DTS:LocaleID="10250"
   DTS:ObjectName="Package"
   DTS:PackageType="5"
-  DTS:VersionBuild="9"
-  DTS:VersionGUID="{3E888B81-8158-4F06-BD90-7B09BCFB3B8E}">
+  DTS:VersionBuild="10"
+  DTS:VersionGUID="{BC041F31-826F-4768-A377-A5115741C28B}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -23,6 +23,8 @@
       DTS:ObjectName="localhost.Northwind">
       <DTS:ObjectData>
         <DTS:ConnectionManager
+          DTS:ConnectRetryCount="1"
+          DTS:ConnectRetryInterval="5"
           DTS:ConnectionString="Data Source=localhost;Initial Catalog=Northwind;Provider=MSOLEDBSQL.1;Integrated Security=SSPI;Auto Translate=False;Application Name=SSIS-Package-{6DC47A41-8AA9-46D9-BEB4-6139373120FB}localhost.Northwind;" />
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -33,6 +35,8 @@
       DTS:ObjectName="localhost.Northwind_DM">
       <DTS:ObjectData>
         <DTS:ConnectionManager
+          DTS:ConnectRetryCount="1"
+          DTS:ConnectRetryInterval="5"
           DTS:ConnectionString="Data Source=localhost;Initial Catalog=Northwind_DM;Provider=MSOLEDBSQL.1;Integrated Security=SSPI;Auto Translate=False;Application Name=SSIS-Package-{523CB79F-128C-4E52-A91C-6D7800BF06D1}localhost.Northwind_DM;" />
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -2279,34 +2283,34 @@ INNER JOIN Products
         <NodeLayout
           Size="189,42"
           Id="Package\Limpiar_Northwind_DM"
-          TopLeft="269,37" />
+          TopLeft="298,41" />
         <NodeLayout
           Size="155,42"
           Id="Package\Poblar_CLIENTE"
-          TopLeft="32,149" />
+          TopLeft="61,153" />
         <NodeLayout
           Size="167,42"
           Id="Package\Poblar_EMPLEADO"
-          TopLeft="281,150" />
+          TopLeft="310,154" />
         <NodeLayout
           Size="169,42"
           Id="Package\Poblar_PRODUCTO"
-          TopLeft="154,210" />
+          TopLeft="183,214" />
         <NodeLayout
           Size="174,42"
           Id="Package\Poblar_PROVEEDOR"
-          TopLeft="540.444444444444,146.111111111111" />
+          TopLeft="569.444444444444,150.111111111111" />
         <NodeLayout
           Size="152,42"
           Id="Package\Poblar_TIEMPO"
-          TopLeft="428,211" />
+          TopLeft="457,215" />
         <NodeLayout
           Size="183,42"
           Id="Package\Poblar_VENTAS_FACT"
-          TopLeft="273,436" />
+          TopLeft="302,440" />
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Restricción]"
-          TopLeft="303.166666666667,79">
+          TopLeft="332.166666666667,83">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
@@ -2340,7 +2344,7 @@ INNER JOIN Products
         </EdgeLayout>
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Restricción 1]"
-          TopLeft="364,79">
+          TopLeft="393,83">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
@@ -2362,7 +2366,7 @@ INNER JOIN Products
         </EdgeLayout>
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Restricción 2]"
-          TopLeft="423.833333333333,79">
+          TopLeft="452.833333333333,83">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
@@ -2396,7 +2400,7 @@ INNER JOIN Products
         </EdgeLayout>
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Restricción 3]"
-          TopLeft="333.333333333333,79">
+          TopLeft="362.333333333333,83">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
@@ -2430,7 +2434,7 @@ INNER JOIN Products
         </EdgeLayout>
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Restricción 4]"
-          TopLeft="393.666666666667,79">
+          TopLeft="422.666666666667,83">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
@@ -2464,7 +2468,7 @@ INNER JOIN Products
         </EdgeLayout>
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Restricción 5]"
-          TopLeft="109.5,191">
+          TopLeft="138.5,195">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
@@ -2498,7 +2502,7 @@ INNER JOIN Products
         </EdgeLayout>
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Restricción 6]"
-          TopLeft="364.5,192">
+          TopLeft="393.5,196">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
@@ -2520,7 +2524,7 @@ INNER JOIN Products
         </EdgeLayout>
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Restricción 7]"
-          TopLeft="627.444444444444,188.111111111111">
+          TopLeft="656.444444444444,192.111111111111">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
@@ -2554,7 +2558,7 @@ INNER JOIN Products
         </EdgeLayout>
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Restricción 8]"
-          TopLeft="238.5,252">
+          TopLeft="267.5,256">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
@@ -2588,7 +2592,7 @@ INNER JOIN Products
         </EdgeLayout>
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Restricción 9]"
-          TopLeft="504,253">
+          TopLeft="533,257">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
