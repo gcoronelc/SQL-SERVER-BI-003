@@ -6,6 +6,18 @@
     <Name>SQL4-SSAS-57040-NW-DIN.database</Name>
     <FullPath>SQL4-SSAS-57040-NW-DIN.database</FullPath>
   </Database>
+  <Cubes>
+    <ProjectItem>
+      <Name>CUBO-NW-57040.cube</Name>
+      <FullPath>CUBO-NW-57040.cube</FullPath>
+      <Dependencies>
+        <ProjectItem>
+          <Name>CUBO-NW-57040.partitions</Name>
+          <FullPath>CUBO-NW-57040.partitions</FullPath>
+        </ProjectItem>
+      </Dependencies>
+    </ProjectItem>
+  </Cubes>
   <Dimensions>
     <ProjectItem>
       <Name>DIM EMPLEADO.dim</Name>
@@ -22,6 +34,10 @@
     <ProjectItem>
       <Name>DIM PRODUCTO.dim</Name>
       <FullPath>DIM PRODUCTO.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>DIM TIEMPO.dim</Name>
+      <FullPath>DIM TIEMPO.dim</FullPath>
     </ProjectItem>
   </Dimensions>
   <DataSources>

@@ -19,7 +19,7 @@
     <ObjectSnapshots>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.RelationalDataSource</Type>
-        <TimeStamp>r9VcMwh9RXIHZ5vPvcEeCihDGSY=12/05/2021 21:08:2412/05/2021 20:43:18</TimeStamp>
+        <TimeStamp>r9VcMwh9RXIHZ5vPvcEeCihDGSY=12/05/2021 21:39:3712/05/2021 20:43:18</TimeStamp>
         <ID>
           <String>SQL4-57040 Northwind DM</String>
         </ID>
@@ -33,30 +33,44 @@
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>j1raOCZJB3qX8n0BciTP/CEl72c=12/05/2021 21:15:3212/05/2021 21:04:57</TimeStamp>
+        <TimeStamp>0h4FXmf5ceogQy7EO3hNBBv0Jv4=14/05/2021 19:11:5512/05/2021 21:04:57</TimeStamp>
         <ID>
           <String>DIM EMPLEADO</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>UHQK0dgGRVTLg8U0W7dhG0gJ0cg=12/05/2021 21:34:0312/05/2021 21:19:55</TimeStamp>
+        <TimeStamp>qIE55kxo2h2jADHI/WDvsTmpj3s=14/05/2021 19:11:5512/05/2021 21:19:55</TimeStamp>
         <ID>
           <String>DIM CLIENTE</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>jDnbaXKKGjDQAkuFhc17bKBZ0sc=12/05/2021 21:32:4612/05/2021 21:29:27</TimeStamp>
+        <TimeStamp>aHxsV4Zw/MwGAgIXMak7h27MOg0=14/05/2021 19:11:5512/05/2021 21:29:27</TimeStamp>
         <ID>
           <String>DIM PROVEEDOR</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>3X5EkKPnyTSTkTgA2Och9QqrC2I=12/05/2021 21:38:0812/05/2021 21:36:18</TimeStamp>
+        <TimeStamp>XIU7q7TuEPlefFQK8YkP3HbJLP4=14/05/2021 19:11:5512/05/2021 21:36:18</TimeStamp>
         <ID>
           <String>DIM PRODUCTO</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>HJ5nbxh5N+pn4dudMwRNPklVnEk=14/05/2021 19:59:5914/05/2021 19:11:55</TimeStamp>
+        <ID>
+          <String>DIM TIEMPO</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>ubzRewijLnX22wFMtyhT2jSl6AU=14/05/2021 20:01:2014/05/2021 19:49:46H1GNfYAPjnJl0GgxZG4cY8VjFq4=14/05/2021 19:55:4914/05/2021 19:49:47</TimeStamp>
+        <ID>
+          <String>CUBO-NW-57040</String>
         </ID>
       </ObjectSnapshot>
     </ObjectSnapshots>
@@ -71,5 +85,5 @@
   </Snapshot>
   <AssemblyLocations />
   <ProcessingComplete>true</ProcessingComplete>
-  <LastDeployed>2021-05-13T02:38:10.363333Z</LastDeployed>
+  <LastDeployed>2021-05-15T01:01:23.443333Z</LastDeployed>
 </DeploymentSnapshot>
