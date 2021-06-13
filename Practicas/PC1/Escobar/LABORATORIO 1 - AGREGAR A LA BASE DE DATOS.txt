@@ -1,0 +1,27 @@
+ALTER TABLE Sales.SalesOrderHeader ADD Trimestre int;
+ALTER TABLE Sales.SalesOrderHeader ADD Semestre int;
+
+UPDATE Sales.SalesOrderHeader
+SET Sales.SalesOrderHeader.Semestre = 1
+WHERE month(OrderDate) between 1 and 6;
+
+UPDATE Sales.SalesOrderHeader
+SET Sales.SalesOrderHeader.Semestre = 2
+WHERE month(OrderDate) between 7 and 12;
+
+UPDATE Sales.SalesOrderHeader
+SET Sales.SalesOrderHeader.Trimestre = 1
+WHERE month(OrderDate) between 1 and 3;
+
+
+UPDATE Sales.SalesOrderHeader
+SET Sales.SalesOrderHeader.Trimestre = 2
+WHERE month(OrderDate) between 4 and 6;
+
+UPDATE Sales.SalesOrderHeader
+SET Sales.SalesOrderHeader.Trimestre = 3
+WHERE month(OrderDate) between 7 and 9;
+
+UPDATE Sales.SalesOrderHeader
+SET Sales.SalesOrderHeader.Trimestre = 4
+WHERE month(OrderDate) between 10 and 12;

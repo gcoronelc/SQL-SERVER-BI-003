@@ -1,0 +1,105 @@
+﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="375524ca-8279-4178-b463-5023c4363102" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>BD57040_DM</ID>
+  <MeasureGroups>
+    <MeasureGroup>
+      <ID>Ventas Vehiculos DM</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="9597ee2d-41d2-4026-bfd9-bbbd6509dbdc">
+          <ID>Ventas Vehiculos DM</ID>
+          <Name>Ventas Vehiculos DM</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="523fd996-89c2-4716-976a-75ab124dc528">
+            <DataSourceViewID>BD57040_DM</DataSourceViewID>
+            <TableID>dbo_VentasVehiculosDM</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+    <MeasureGroup>
+      <ID>Sede</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="3b6eb7e0-0ab9-42b3-9cc1-2aa03f1d8863">
+          <ID>Sede</ID>
+          <Name>Sede</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="894c1ae4-f7f1-4a42-b84c-634dba94e685">
+            <DataSourceViewID>BD57040_DM</DataSourceViewID>
+            <TableID>dbo_Sede</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+    <MeasureGroup>
+      <ID>Vehiculos</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="c9cf41aa-079b-4aba-b07b-0809a9312d75">
+          <ID>Vehiculos</ID>
+          <Name>Vehiculos</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="bdd3a8d3-e634-4890-9bde-fdc8c7707390">
+            <DataSourceViewID>BD57040_DM</DataSourceViewID>
+            <TableID>dbo_Vehiculos</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+    <MeasureGroup>
+      <ID>Fecha T</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="782da9ad-10ff-4b07-8df1-fcb013dc5b58">
+          <ID>Fecha T</ID>
+          <Name>Fecha T</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="b766c3b2-c0a8-44a2-bcb2-9f29f6f8e656">
+            <DataSourceViewID>BD57040_DM</DataSourceViewID>
+            <TableID>dbo_FechaT</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+    <MeasureGroup>
+      <ID>Canal T1</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="16bc2102-74a2-42fd-855b-bf837aa525d4">
+          <ID>Canal T1</ID>
+          <Name>Canal T1</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="f6247142-bd74-4e57-b001-487226c156fe">
+            <DataSourceViewID>BD57040_DM</DataSourceViewID>
+            <TableID>dbo_CanalT1</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+  </MeasureGroups>
+</Cube>

@@ -1,0 +1,733 @@
+﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="3cf7d746-0365-401f-995f-6721e3ae190b" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>BD57040_DM</ID>
+  <Name>BD57040_DM</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>100</Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Dimensions>
+    <Dimension dwd:design-time-name="93355883-e214-495c-b78e-fd7d3038f6da">
+      <ID>Ventas Vehiculos DM</ID>
+      <Name>Ventas Vehiculos DM</Name>
+      <DimensionID>Ventas Vehiculos DM</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="14296d3b-ff81-4eb9-adfb-b4d6a554dd38">
+          <AttributeID>Id Vendedor</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="9d7a17b6-7cce-42bb-a851-21111dd533e4">
+          <AttributeID>Fecha</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="9f916ca9-cc8b-465b-b5e2-88fa0e4ff737">
+          <AttributeID>ID Vehiculo</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="d11b795f-f45c-4e5d-9b8e-df5d733631d8">
+          <AttributeID>Id Canal</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="cb34fdbd-0950-4e31-aec0-9869392a5b7e">
+          <AttributeID>Id Sede</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="c53ef8dc-4e38-4713-87b4-74eb267571d8">
+      <ID>Fecha T</ID>
+      <Name>Fecha T</Name>
+      <DimensionID>Fecha T</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="88ad3a7b-9ffd-4ca8-86d7-7c3262f94fd4">
+          <AttributeID>Fecha</AttributeID>
+        </Attribute>
+      </Attributes>
+      <Hierarchies>
+        <Hierarchy dwd:design-time-name="6b85219b-b350-4817-9c00-d32ab7f9920f">
+          <HierarchyID>Hierarchy</HierarchyID>
+        </Hierarchy>
+      </Hierarchies>
+    </Dimension>
+    <Dimension dwd:design-time-name="c73a6b9a-6676-4e14-a8ac-5280c9f4a4f6">
+      <ID>Vehiculos</ID>
+      <Name>Vehiculos</Name>
+      <DimensionID>Vehiculos</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="3523d1e8-82a9-47ce-9f84-e8e8562a7e29">
+          <AttributeID>ID Vehiculo</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="84cdd793-5d85-47f8-a390-ade3f06881f8">
+      <ID>Canal T1</ID>
+      <Name>Canal T1</Name>
+      <DimensionID>Canal T1</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="bf63ede2-81b5-408b-861d-b5495b148d33">
+          <AttributeID>Id Canal</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="c6cf1145-8d4b-4335-b9f9-798650ee92f2">
+      <ID>Sede</ID>
+      <Name>Sede</Name>
+      <DimensionID>Sede</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="12249ee5-1f6e-4bab-9c1a-fc97ea04b968">
+          <AttributeID>Id Sede</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="9299b4d3-9e70-4d6c-9bf2-5f535da5a121">
+      <ID>Sede 1</ID>
+      <Name>Sede 1</Name>
+      <DimensionID>Sede 1</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="06e46c9b-7b6d-4eb7-8c0f-62d2e6d72acc">
+          <AttributeID>Id Sede</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="f2f2dcc7-2d80-41c4-89b1-0bc6d1e7d84f">
+      <ID>Vehiculos 1</ID>
+      <Name>Vehiculos 1</Name>
+      <DimensionID>Vehiculos 1</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="9d788a4a-f037-44ab-9532-adcdf7986419">
+          <AttributeID>ID Vehiculo</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="eb83ef16-df93-4c77-8975-a0ff189bd489">
+      <ID>Fecha T 1</ID>
+      <Name>Fecha T 1</Name>
+      <DimensionID>Fecha T 1</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="c16fa488-e3bd-4f84-924e-38d1cc4e9970">
+          <AttributeID>Fecha</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="7f1a2a7a-59b2-4c0b-93d3-eef43e891d03">
+      <ID>Canal T1 1</ID>
+      <Name>Canal T1 1</Name>
+      <DimensionID>Canal T1 1</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="980c22a7-2509-4bba-b990-211c18eb3eaf">
+          <AttributeID>Id Canal</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="b2829cd0-3caa-406a-bb4d-ca517cf32233">
+      <ID>Ventas Vehiculos DM - Id Canal</ID>
+      <Name>Ventas Vehiculos DM - Id Canal</Name>
+      <DimensionID>Canal T1 1</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="b5a03a3f-a877-4980-bc24-52c2eb3e95c7">
+          <AttributeID>Id Canal</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="3580ecff-8b4a-435c-8079-6992121d01a5">
+      <ID>Ventas Vehiculos DM - Id Sede</ID>
+      <Name>Ventas Vehiculos DM - Id Sede</Name>
+      <DimensionID>Sede 1</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="bca226a0-1f26-4b0f-9b7f-55a90c128088">
+          <AttributeID>Id Sede</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+  </Dimensions>
+  <MeasureGroups>
+    <MeasureGroup dwd:design-time-name="f45c1fac-3ac7-45ae-9b34-f49c78b5434c">
+      <ID>Ventas Vehiculos DM</ID>
+      <Name>Ventas Vehiculos DM</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+      <State>Unprocessed</State>
+      <Measures>
+        <Measure dwd:design-time-name="4b660a6e-c7bb-4dab-ab00-114ab9ecae77">
+          <ID>ID</ID>
+          <Name>ID</Name>
+          <Source dwd:design-time-name="0422620e-f2e2-4757-bc19-f85ae0ce0423">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="d4cc4265-49c0-4c38-be5d-ca803951e00d">
+              <TableID>dbo_VentasVehiculosDM</TableID>
+              <ColumnID>ID</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="2445c754-f5d7-4741-94df-8019e5b3c992">
+          <ID>Precio Venta Real</ID>
+          <Name>Precio Venta Real</Name>
+          <Source dwd:design-time-name="b550c0c0-d7d4-44fb-a785-57046ac15eac">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="4a717546-492d-4510-a1ab-9684ba9f2e7d">
+              <TableID>dbo_VentasVehiculosDM</TableID>
+              <ColumnID>Precio_x0020_Venta_x0020_Real</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="ca8033fb-2655-41bd-9607-bb2943286292">
+          <ID>Precio Venta Sin IGV</ID>
+          <Name>Precio Venta Sin IGV</Name>
+          <Source dwd:design-time-name="62dbe036-568f-4560-ab7a-6d958c644f19">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="3582f91c-15de-440b-9532-20d928cc20b5">
+              <TableID>dbo_VentasVehiculosDM</TableID>
+              <ColumnID>Precio_x0020_Venta_x0020_sin_x0020_IGV</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="7c695389-03d8-46b0-8572-0a2524491b16">
+          <ID>IGV</ID>
+          <Name>IGV</Name>
+          <Source dwd:design-time-name="2a03c565-b975-445a-8f28-7e2ecb0919bd">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="42af722b-10b7-4d31-87aa-107c99632b59">
+              <TableID>dbo_VentasVehiculosDM</TableID>
+              <ColumnID>IGV</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="96ed86a9-6acf-4dee-985b-ce8a169d5f24">
+          <ID>Costo Vehículo</ID>
+          <Name>Costo Vehículo</Name>
+          <Source dwd:design-time-name="6b8af5be-4517-4bb5-9ca5-42957947ad01">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="141bda4b-a622-4c8c-be24-c6c3b7a2eb57">
+              <TableID>dbo_VentasVehiculosDM</TableID>
+              <ColumnID>Costo_x0020_Vehículo</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="b119e7cd-c3f9-4c86-b5d2-131779b7a6a3">
+          <ID>Ventas Vehiculos DM Count</ID>
+          <Name>Ventas Vehiculos DM Count</Name>
+          <AggregateFunction>Count</AggregateFunction>
+          <Source dwd:design-time-name="8698612b-6cd1-4659-9f96-c91d237e597b">
+            <DataType>Integer</DataType>
+            <DataSize>4</DataSize>
+            <Source xsi:type="RowBinding" dwd:design-time-name="6b05517f-6388-4089-bea6-d68298ce9fff">
+              <TableID>dbo_VentasVehiculosDM</TableID>
+            </Source>
+          </Source>
+        </Measure>
+      </Measures>
+      <StorageMode>Molap</StorageMode>
+      <ProcessingMode>Regular</ProcessingMode>
+      <Dimensions>
+        <Dimension xsi:type="DegenerateMeasureGroupDimension" dwd:design-time-name="61b2a8de-a592-4b44-bf7e-685792f46aba">
+          <CubeDimensionID>Ventas Vehiculos DM</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="a80f4060-41c5-4d6a-92a8-28aa2601b0c8">
+              <AttributeID>Id Vendedor</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="aac859be-310b-4fe1-bb1c-0a819d29f7d6">
+                  <DataType>Double</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="5aed6332-dfe8-43d1-ab56-7a7f3b811215">
+                    <TableID>dbo_VentasVehiculosDM</TableID>
+                    <ColumnID>Id_vendedor_x0020_</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="670f6d7b-13c9-42be-abe6-cc6981f1426a">
+          <CubeDimensionID>Fecha T</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="6c6cc333-842b-41f5-8ae4-444d4f0d16bd">
+              <AttributeID>Fecha</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="5f9d56fe-dce6-47ff-b25b-1d63a1dbf9cc">
+                  <DataType>Double</DataType>
+                  <NullProcessing>UnknownMember</NullProcessing>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="567f11af-6159-4859-9e60-c80da4a4690f">
+                    <TableID>dbo_VentasVehiculosDM</TableID>
+                    <ColumnID>Fecha</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="edbac200-dfbc-468d-90bc-b884e318df92">
+          <CubeDimensionID>Vehiculos</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="354a9410-bf90-4438-81a9-c764a521ed2a">
+              <AttributeID>ID Vehiculo</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="14d12f49-868f-49b7-b5a4-8d3707230b59">
+                  <DataType>Double</DataType>
+                  <NullProcessing>UnknownMember</NullProcessing>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="1d2bc89f-e55f-497c-8c75-5cb0d6fc29b6">
+                    <TableID>dbo_VentasVehiculosDM</TableID>
+                    <ColumnID>ID_Vehiculo</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="b3bfd38f-8865-410f-8af4-bc70b31f9f40">
+          <CubeDimensionID>Canal T1</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="164ab914-73c3-45fb-b355-bff7ddf76caf">
+              <AttributeID>Id Canal</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="6d023c47-0094-4a02-b0e6-47647a9a9454">
+                  <DataType>Double</DataType>
+                  <NullProcessing>UnknownMember</NullProcessing>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="e6594401-3be9-41e9-91ac-0faa5c5319b2">
+                    <TableID>dbo_VentasVehiculosDM</TableID>
+                    <ColumnID>Id_Canal</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="8fe6ab4e-290b-4f34-8550-7d6ec39ba49a">
+          <CubeDimensionID>Sede</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="73728d53-7327-4c9d-80ca-0a282175a4c9">
+              <AttributeID>Id Sede</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="4bb19b55-4494-4233-953e-b7bff7628354">
+                  <DataType>Double</DataType>
+                  <NullProcessing>UnknownMember</NullProcessing>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="0dc242a3-e23f-4968-8380-16155418b8f9">
+                    <TableID>dbo_VentasVehiculosDM</TableID>
+                    <ColumnID>Id_sede</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="ManyToManyMeasureGroupDimension" dwd:design-time-name="73fb42e0-1f40-476f-bc19-51c65f515738">
+          <CubeDimensionID>Sede 1</CubeDimensionID>
+          <MeasureGroupID>Sede</MeasureGroupID>
+        </Dimension>
+        <Dimension xsi:type="ManyToManyMeasureGroupDimension" dwd:design-time-name="265b9a66-53e4-4f75-bffd-032d0639f641">
+          <CubeDimensionID>Canal T1 1</CubeDimensionID>
+          <MeasureGroupID>Canal T1</MeasureGroupID>
+        </Dimension>
+        <Dimension xsi:type="ReferenceMeasureGroupDimension" dwd:design-time-name="b33cc5e5-eb7c-4c3a-86d7-050d4225f6a3">
+          <CubeDimensionID>Fecha T 1</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="7c1abb17-8a76-49f0-9bba-ba710b308e3c">
+              <AttributeID>Fecha</AttributeID>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+          <IntermediateCubeDimensionID>Ventas Vehiculos DM</IntermediateCubeDimensionID>
+          <IntermediateGranularityAttributeID>Fecha</IntermediateGranularityAttributeID>
+          <Materialization>Regular</Materialization>
+          <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+        </Dimension>
+        <Dimension xsi:type="ReferenceMeasureGroupDimension" dwd:design-time-name="6af2886d-205e-4568-b72a-b51d5e87be47">
+          <CubeDimensionID>Vehiculos 1</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="848f82c9-0c80-4bef-9480-774dd677043a">
+              <AttributeID>ID Vehiculo</AttributeID>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+          <IntermediateCubeDimensionID>Ventas Vehiculos DM</IntermediateCubeDimensionID>
+          <IntermediateGranularityAttributeID>ID Vehiculo</IntermediateGranularityAttributeID>
+          <Materialization>Regular</Materialization>
+          <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+        </Dimension>
+        <Dimension xsi:type="ReferenceMeasureGroupDimension" dwd:design-time-name="8d2c5e8b-e4b8-4640-b6f9-9aa6f4874e28">
+          <CubeDimensionID>Ventas Vehiculos DM - Id Canal</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="1cfead5e-cb6d-4706-8236-652a58986fe3">
+              <AttributeID>Id Canal</AttributeID>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+          <IntermediateCubeDimensionID>Ventas Vehiculos DM</IntermediateCubeDimensionID>
+          <IntermediateGranularityAttributeID>Id Canal</IntermediateGranularityAttributeID>
+          <Materialization>Regular</Materialization>
+          <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+        </Dimension>
+        <Dimension xsi:type="ReferenceMeasureGroupDimension" dwd:design-time-name="edd3dbda-5e4b-414f-8344-68c8c84b444a">
+          <CubeDimensionID>Ventas Vehiculos DM - Id Sede</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="10837e64-c611-48b9-bccd-5330c79c741d">
+              <AttributeID>Id Sede</AttributeID>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+          <IntermediateCubeDimensionID>Ventas Vehiculos DM</IntermediateCubeDimensionID>
+          <IntermediateGranularityAttributeID>Id Sede</IntermediateGranularityAttributeID>
+          <Materialization>Regular</Materialization>
+          <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+        </Dimension>
+      </Dimensions>
+      <Partitions />
+    </MeasureGroup>
+    <MeasureGroup dwd:design-time-name="5f2fd229-c4f3-4854-9e04-fa114a08985d">
+      <ID>Sede</ID>
+      <Name>Sede</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+      <State>Unprocessed</State>
+      <Measures>
+        <Measure dwd:design-time-name="044224a1-3d79-4c01-bfbb-49de6712549c">
+          <ID>Sede Count</ID>
+          <Name>Sede Count</Name>
+          <AggregateFunction>Count</AggregateFunction>
+          <Source dwd:design-time-name="25f7fe09-e118-4e1b-9898-08d736176d7d">
+            <DataType>Integer</DataType>
+            <DataSize>4</DataSize>
+            <Source xsi:type="RowBinding" dwd:design-time-name="22c9b1f9-021b-423a-af5f-e3f9a5e67e60">
+              <TableID>dbo_Sede</TableID>
+            </Source>
+          </Source>
+        </Measure>
+      </Measures>
+      <StorageMode>Molap</StorageMode>
+      <ProcessingMode>Regular</ProcessingMode>
+      <Dimensions>
+        <Dimension xsi:type="DegenerateMeasureGroupDimension" dwd:design-time-name="1e374d09-59e4-4f3d-b8da-375dedabfd84">
+          <CubeDimensionID>Sede</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="6290e1f6-c97f-40b0-a736-9ada43d70a3a">
+              <AttributeID>Id Sede</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="69bf676f-d7ac-4ab5-82bb-3e70b79d474f">
+                  <DataType>Double</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="7fdd9706-d2ff-4dd4-b3a4-dd6f92118eb2">
+                    <TableID>dbo_Sede</TableID>
+                    <ColumnID>Id_sede</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="a834ca7f-3179-40e5-be1b-2dc5fb0a273b">
+          <CubeDimensionID>Sede 1</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="f76cbcfa-b7ff-4cd2-86a8-1bbdd7893b58">
+              <AttributeID>Id Sede</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="a2be965a-ee7e-4755-9e7b-cffc91e344a9">
+                  <DataType>Double</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="83b74eff-c45e-43f4-aa5b-f1bcbf5cf5e1">
+                    <TableID>dbo_Sede</TableID>
+                    <ColumnID>Id_sede</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+      </Dimensions>
+      <Partitions />
+    </MeasureGroup>
+    <MeasureGroup dwd:design-time-name="8f8e00bf-f697-406e-9e9d-adea4417057d">
+      <ID>Vehiculos</ID>
+      <Name>Vehiculos</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+      <State>Unprocessed</State>
+      <Measures>
+        <Measure dwd:design-time-name="b64538ac-f664-4d0c-bfde-d4b873da6f90">
+          <ID>AÑO</ID>
+          <Name>AÑO</Name>
+          <Source dwd:design-time-name="ea862859-3cb4-413a-b209-ebf10a2963bc">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="abafeffc-942e-47cf-9858-666bd5b4f2f0">
+              <TableID>dbo_Vehiculos</TableID>
+              <ColumnID>AÑO</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="26bb6152-2a05-46fd-bb92-090929601862">
+          <ID>Vehiculos Count</ID>
+          <Name>Vehiculos Count</Name>
+          <AggregateFunction>Count</AggregateFunction>
+          <Source dwd:design-time-name="8566ccbf-12fe-4324-bbcd-2e1124c0d5c0">
+            <DataType>Integer</DataType>
+            <DataSize>4</DataSize>
+            <Source xsi:type="RowBinding" dwd:design-time-name="8ef72765-e0aa-4151-8a9e-624ffb6fb895">
+              <TableID>dbo_Vehiculos</TableID>
+            </Source>
+          </Source>
+        </Measure>
+      </Measures>
+      <StorageMode>Molap</StorageMode>
+      <ProcessingMode>Regular</ProcessingMode>
+      <Dimensions>
+        <Dimension xsi:type="DegenerateMeasureGroupDimension" dwd:design-time-name="44ef614d-0ef9-4f2c-b793-80d08bad2736">
+          <CubeDimensionID>Vehiculos</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="4b199178-3e50-46bd-b0f9-678bec62ce57">
+              <AttributeID>ID Vehiculo</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="6f8b0279-1782-4351-80ee-53b4d9decb39">
+                  <DataType>Double</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="3d3c5487-6e6f-4d48-840b-4cea07eea1fc">
+                    <TableID>dbo_Vehiculos</TableID>
+                    <ColumnID>ID_Vehiculo</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="e0a1c857-ab7e-4dc8-9c5c-d72492634cad">
+          <CubeDimensionID>Vehiculos 1</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="e16c1630-6750-4306-8c18-e582d98e3ece">
+              <AttributeID>ID Vehiculo</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="29aeae4f-7500-426a-adc8-42a6607b15c4">
+                  <DataType>Double</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="d7800eb4-4f95-4d73-862e-89412f5ca869">
+                    <TableID>dbo_Vehiculos</TableID>
+                    <ColumnID>ID_Vehiculo</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+      </Dimensions>
+      <Partitions />
+    </MeasureGroup>
+    <MeasureGroup dwd:design-time-name="47ccbb88-5205-4fc5-979a-1b6f5543ef32">
+      <ID>Fecha T</ID>
+      <Name>Fecha T</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+      <State>Unprocessed</State>
+      <Measures>
+        <Measure dwd:design-time-name="cedaba67-5d31-47f9-a9a1-20f2f9b3fce2">
+          <ID>Año - Fecha T</ID>
+          <Name>Año - Fecha T</Name>
+          <Source dwd:design-time-name="d61942c6-563d-435e-83a4-7a368c406e8d">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="3df032af-4819-4090-b67b-f49d8216e5fa">
+              <TableID>dbo_FechaT</TableID>
+              <ColumnID>Año</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="6110d56d-7865-4616-bbee-bdbf6bd5adf8">
+          <ID>Semestre</ID>
+          <Name>Semestre</Name>
+          <Source dwd:design-time-name="0f4bfb29-7871-447f-8036-296afc0ec306">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="4dbf78dd-ba1f-42cb-8275-50e765cde922">
+              <TableID>dbo_FechaT</TableID>
+              <ColumnID>Semestre</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="f775d73d-e8d4-461a-91c5-1897cfdfb659">
+          <ID>Trimestre</ID>
+          <Name>Trimestre</Name>
+          <Source dwd:design-time-name="305aed47-5b3c-4b0c-8aad-b71f7c848e28">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="95f9ffc1-e317-4085-b4cf-381bd5f9b9ae">
+              <TableID>dbo_FechaT</TableID>
+              <ColumnID>Trimestre</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="5033af42-c8ec-40fe-93fb-f094d197d57b">
+          <ID>Mes</ID>
+          <Name>Mes</Name>
+          <Source dwd:design-time-name="b211d0f2-67a8-46ff-a881-77a46128bef4">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="5f5ec942-8138-44ad-adfd-2d5df4043664">
+              <TableID>dbo_FechaT</TableID>
+              <ColumnID>Mes</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="82b52738-545c-46d5-a2bc-41cf07a891b2">
+          <ID>Dia</ID>
+          <Name>Dia</Name>
+          <Source dwd:design-time-name="813b8c8e-156d-483f-a83e-12084db68fe3">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="6696ebe1-24bd-4c63-b58b-385d4ba9ba1c">
+              <TableID>dbo_FechaT</TableID>
+              <ColumnID>Dia</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="3c30ff7e-554f-4abd-af37-bf576fb6119c">
+          <ID>Fecha T Count</ID>
+          <Name>Fecha T Count</Name>
+          <AggregateFunction>Count</AggregateFunction>
+          <Source dwd:design-time-name="9399110f-dbee-4250-ba2e-ac1a077cff57">
+            <DataType>Integer</DataType>
+            <DataSize>4</DataSize>
+            <Source xsi:type="RowBinding" dwd:design-time-name="aa586876-f56a-4f51-8f36-c6a5fe6e6f4c">
+              <TableID>dbo_FechaT</TableID>
+            </Source>
+          </Source>
+        </Measure>
+      </Measures>
+      <StorageMode>Molap</StorageMode>
+      <ProcessingMode>Regular</ProcessingMode>
+      <Dimensions>
+        <Dimension xsi:type="DegenerateMeasureGroupDimension" dwd:design-time-name="5dce1a09-dae9-4ce4-9e69-486bbd585609">
+          <CubeDimensionID>Fecha T</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="fd9e0177-99a0-4a9a-a2e9-64361ce3906e">
+              <AttributeID>Fecha</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="077e35b8-0780-485b-aa56-793bc6ce067f">
+                  <DataType>Double</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="8915b02d-8e10-4298-900f-15194ce59b4d">
+                    <TableID>dbo_FechaT</TableID>
+                    <ColumnID>Fecha</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="c5940313-fbfe-43c8-9968-ad3e70d3966f">
+          <CubeDimensionID>Fecha T 1</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="5f9476e5-e568-4a75-bf92-d6845c47d187">
+              <AttributeID>Fecha</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="5f80cce7-3fa2-4689-b56a-8dd0eec6a99a">
+                  <DataType>Double</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="7d55a083-d721-48e5-9b44-9a0e3c412a17">
+                    <TableID>dbo_FechaT</TableID>
+                    <ColumnID>Fecha</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+      </Dimensions>
+      <Partitions />
+    </MeasureGroup>
+    <MeasureGroup dwd:design-time-name="99acb246-88f4-4b70-a806-bb6993e24653">
+      <ID>Canal T1</ID>
+      <Name>Canal T1</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+      <State>Unprocessed</State>
+      <Measures>
+        <Measure dwd:design-time-name="459a6f54-0043-4ff7-b334-4ee59636abd0">
+          <ID>Canal T1 Count</ID>
+          <Name>Canal T1 Count</Name>
+          <AggregateFunction>Count</AggregateFunction>
+          <Source dwd:design-time-name="f6bf755d-d809-4514-bb2f-c4fcc12a5ada">
+            <DataType>Integer</DataType>
+            <DataSize>4</DataSize>
+            <Source xsi:type="RowBinding" dwd:design-time-name="30644fd7-3413-4d20-8537-607d35a7c270">
+              <TableID>dbo_CanalT1</TableID>
+            </Source>
+          </Source>
+        </Measure>
+      </Measures>
+      <StorageMode>Molap</StorageMode>
+      <ProcessingMode>Regular</ProcessingMode>
+      <Dimensions>
+        <Dimension xsi:type="DegenerateMeasureGroupDimension" dwd:design-time-name="1da52c8c-f5e2-447d-9dd9-19e6654d8d79">
+          <CubeDimensionID>Canal T1</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="a5690bcc-ff15-40f0-9349-ff6781a86f41">
+              <AttributeID>Id Canal</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="59de692a-a556-41a3-9914-8f079c47a881">
+                  <DataType>Double</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="bcf748d0-3213-4b53-ba5f-c80e7895597e">
+                    <TableID>dbo_CanalT1</TableID>
+                    <ColumnID>Id_Canal</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="bb9be5b7-20a1-4dce-9b03-d744bcac8172">
+          <CubeDimensionID>Canal T1 1</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="83a0d11e-4776-401f-bf52-c5ab777df909">
+              <AttributeID>Id Canal</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="44c88f73-6846-44ca-bed8-d1c8c280f2fe">
+                  <DataType>Double</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="62e20fc9-3127-413a-8d82-00a45b8e07f4">
+                    <TableID>dbo_CanalT1</TableID>
+                    <ColumnID>Id_Canal</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+      </Dimensions>
+      <Partitions />
+    </MeasureGroup>
+  </MeasureGroups>
+  <Source dwd:design-time-name="5e7708d6-cf91-42c4-8c59-7af57e5427ba">
+    <DataSourceViewID>BD57040_DM</DataSourceViewID>
+  </Source>
+</Cube>
